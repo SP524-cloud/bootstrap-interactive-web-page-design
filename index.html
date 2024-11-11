@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Tech Aisle</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="bg-primary text-white text-center py-4">
+    <h1>The Tech Aisle</h1>
+    <p class="lead">We discuss the latest tech trends right here!</p>
+    <img src="https://images.stockcake.com/public/5/f/a/5fa77657-9e63-4013-9a55-a2c0a111e41d_large/tech-store-interior-stockcake.jpg" alt="Description of Image" class="img-fluid" style="width:50%; height:auto;">
+</section>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">MySite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Articles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Guides</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div class="row">
+      
+      <aside class="col-md-4">
+        <div class="p-4 mb-4 bg-light rounded">
+          <h2>Tasks to complete</h2>
+          <div class="card p-4 shadow-sm">
+            <ul class="list-group list-group-flush">
+              <!-- Task 1 -->
+              <li class="list-group-item d-flex align-items-center">
+                <input type="checkbox" class="form-check-input me-3" id="task1">
+                <label class="form-check-label" for="task1">Read the latest tech news</label>
+              </li>
+    
+              <!-- Task 2 -->
+              <li class="list-group-item d-flex align-items-center">
+                <input type="checkbox" class="form-check-input me-3" id="task2">
+                <label class="form-check-label" for="task2">Check out new product reviews</label>
+              </li>
+    
+              <!-- Task 3 -->
+              <li class="list-group-item d-flex align-items-center">
+                <input type="checkbox" class="form-check-input me-3" id="task3">
+                <label class="form-check-label" for="task3">Explore our how-to guides</label>
+              </li>
+    
+              <!-- Task 4 -->
+              <li class="list-group-item d-flex align-items-center">
+                <input type="checkbox" class="form-check-input me-3" id="task4">
+                <label class="form-check-label" for="task4">Subscribe to the Tech Aisle newsletter</label>
+              </li>
+            </ul>
+            <button class="btn btn-primary mt-4" onclick="markAllComplete()">Mark All as Complete</button>
+        </div>
+      </aside>
+
+      <!-- Main Section -->
+      <section class="col-md-8">
+        <h2>Welcome to Tech Aisle</h2>
+  <p>Your go-to destination for the latest tech news, reviews, and guides! At Tech Aisle, we bring you in-depth insights on cutting-edge gadgets, software, and industry trends to help you stay ahead in the fast-paced world of technology.</p>
+
+  <h3>What We offer</h3>
+  <ul> <li><strong>Tech News:</strong> Get daily updates on what’s happening in the tech industry, from major company announcements to the latest product launches.</li>
+    <li><strong>Product Reviews:</strong> Our expert reviews help you make informed choices when buying new tech products, covering everything from smartphones to smart home devices.</li>
+    <li><strong>How-To Guides:</strong> Whether you’re setting up a new device or looking for troubleshooting tips, our easy-to-follow guides are here to help.</li></ul>
+      </section>
+    </div>
+  </main>
+
+      
+  <section id="about" class="mb-5"> 
+    <h2>About Author</h2>
+    <p>Hello, I am <strong>Shirlan Pierre</strong>, a young and aspiring software and web developer with a deep passion for technology and digital innovation. Tech Aisle is my space to share the latest in tech news, practical guides, and personal insights to help others explore the incredible world of technology. Whether you’re looking to learn new coding skills, stay updated on the latest gadgets, or find step-by-step tutorials, Tech Aisle has something for you.</p>
+    <p>Through this website, I aim to make technology accessible and enjoyable for everyone. Join me on this journey, where we’ll learn, create, and push the boundaries of what’s possible in the digital space.</p>
+  </section>
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Tech Aisle. All Rights Reserved
+
+  <!-- Bootstrap JS and Popper.js (for dropdowns, modals) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
